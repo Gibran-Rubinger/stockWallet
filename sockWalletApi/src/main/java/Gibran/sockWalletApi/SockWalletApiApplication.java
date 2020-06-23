@@ -1,13 +1,13 @@
-package com.gibran.sockWallet;
+package Gibran.sockWalletApi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SockWalletApplication {
+public class SockWalletApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SockWalletApplication.class, args);
+		SpringApplication.run(SockWalletApiApplication.class, args);
 	}
 
 }
