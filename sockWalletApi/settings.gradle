@@ -1,1 +1,5 @@
 rootProject.name = 'sockWalletApi'
+
+ jsoup HTML parser library @ https://jsoup.org/
+compile 'org.jsoup:jsoup:1.13.1'
+
