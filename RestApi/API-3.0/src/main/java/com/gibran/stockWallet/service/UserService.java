@@ -50,6 +50,6 @@ public class UserService {
 		User existingUser=repository.findById(user.getId()).orElse(null);
 		existingUser.setUserName(user.getUserName());
 		existingUser.setEmail(user.getEmail());
-		return user;
+		return repository.save(existingUser);
 	}
 }
