@@ -1,7 +1,5 @@
 package com.gibran.stockWallet.entity;
 
-import java.rmi.server.UID;
-
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -10,27 +8,27 @@ import javax.persistence.Table;
 @Table (name="user")
 public class User {
 		@Id
-		private UID id;
-		private String userName = "";
+		private int id;
+		private String name = "";
 		private String email = "";
 		
-		public User(String userName,String email) {
-			this.userName = userName;
+		public User(String name,String email) {
+			this.name = name;
 			this.email = email;
 		}
 		
 		
-		public UID getId() {
+		public int getId() {
 			return id;
 		}
-		public void setId(UID id) {
+		public void setId(int id) {
 			this.id = id;
 		}
-		public String getUserName() {
-			return userName;
+		public String getName() {
+			return name;
 		}
-		public void setUserName(String userName) {
-			this.userName = userName;
+		public void setName(String name) {
+			this.name = name;
 		}
 		public String getEmail() {
 			return email;

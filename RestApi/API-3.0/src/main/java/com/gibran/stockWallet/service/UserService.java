@@ -47,9 +47,10 @@ public class UserService {
 	
 //	to update
 	public User updateUser(User user) {
-		User existingUser=repository.findById(user.getId()).orElse(null);
-		existingUser.setUserName(user.getUserName());
-		existingUser.setEmail(user.getEmail());
-		return repository.save(existingUser);
+//		User existingUser=repository.findById(user.getId()).orElse(null);
+//		existingUser.setUserName(user.getUserName());
+//		existingUser.setEmail(user.getEmail());
+//		return repository.save(existingUser);
+		return null;
 	}
 }
