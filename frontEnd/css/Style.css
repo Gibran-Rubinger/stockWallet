@@ -10,17 +10,13 @@ html, body{
 /* creating a style for logo*/
 header .logo
 {
-    color: #fff;
-    height: 50px;
-    line-height: 50px;
-    font-size: 24px;
     float: left;
-    font-weight: bold;
 }
 /* menu definitions*/
 header nav
 {
     float: right;
+    bottom: 10px;
 }
 header nav ul
 {
@@ -34,9 +30,9 @@ header nav ul li
 }
 header nav ul li a
 {
-    height: 60px;
-    line-height: 60px;
-    padding: 0 20px;;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
     color: #fff;
     text-decoration: none;
     display: block;
@@ -101,7 +97,11 @@ header
 {
     header
     {
-        padding: 0 20px;
+        padding: 5 20px;
+    }
+    header .logo
+    {
+    float: left;
     }
     .menu-toggle
     {
@@ -135,10 +135,11 @@ header
         border-bottom: 1px solid rgba(0, 0, 0, .2);
     }
 }
+
 /*After menu*/
 
 #home {
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/kelly-sikkema-FqqaJI9OxMI-unsplash.jpg);
     background-attachment: fixed;
     background-position: top center;
     display: table;
@@ -153,6 +154,7 @@ header
 }
 
 .mainFrontHome {
+
 	display: table-cell;
 	text-align: center;
     vertical-align: middle;
@@ -172,9 +174,9 @@ header
 }
 
 .logo{
-    background-image: url(../logo/SUMMABLACK-1.png) alt="alt";
-    width: 100%;
-    height: auto;
+    background-image: url(../logo/summaNav.png);
+    width: 140px;
+    height: 70px;
     align-self: bottom;
     background-position: left;
     background-repeat: no-repeat;
