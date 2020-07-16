@@ -147,10 +147,7 @@ header
 	height: 100vh;
     position: relative;
     background-size: cover;
-    -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-	will-change: transform;
-	z-index: -1;
+    
 }
 
 .mainFrontHome {
@@ -184,6 +181,18 @@ header
           transform: translateZ(0);
 	will-change: transform;
 	z-index: -1;
+}
+.logo2{
+    background-image: url(../logo/SUMMABLACK-1.png);
+    width: 840px;
+    height: 350px;
+    scale: 20%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+	will-change: transform;
+	z-index: -1;
     
 }
 figure {
@@ -207,6 +216,14 @@ figure {
     position: relative;
 	background-size: cover;
 	background-position: center center;
+}
+.justT{
+    font-size: 27px;
+    text-align: left;
+}
+.just{
+    font-size: 17px;
+    text-align: justify;
 }
   
 /*Footer*/
