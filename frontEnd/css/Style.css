@@ -5,6 +5,7 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 /* creating a style for logo*/
@@ -230,7 +231,13 @@ figure {
     font-size: 17px;
     text-align: justify;
 }
-  
+#iconValidation{
+    position: absolute;
+    top: 45px;
+    right: 20px;
+
+}
+
 /*Footer*/
 footer {
     position: fixed;
@@ -266,7 +273,16 @@ footer {
     font-weight: bold;
 }
 
+/*modal fix bug*/
+.modal-open {
+    padding-right: 0 !important;
+  }
+  
+  html {
+    overflow-y: scroll !important;
+  }
 
+  
 
 
 

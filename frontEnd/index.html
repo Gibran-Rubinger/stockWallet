@@ -38,49 +38,64 @@
     </header> 
      <!-- Sing-up -->
     <div class="modal fade" id="modalRegister" tabindex="-1">
-      <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button class="close" data-dismiss="modal">&times;</button>
-            <h2 class="fontLogin">Register</h2>
-            <p class="">Please fill in this form to create an account.</p>
-          </div>
-          <div class="div modal-body">
-            <div class="md-form form-sm mb-5">
-              <i class="fas fa-user prefix grey-text"></i>
-              <input id="form34" class="form-control form-control-sm validate" type="text" placeholder="Type your name.">
-              <label data-error="wrong" data-success="right" for="form34"></label>
+      <form  id="form">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h2 class="fontLogin">Register</h2>
+              <p class="">Please fill in this form to create an account.</p>
             </div>
-            <div class="md-form form-sm mb-5">
-              <i class="fas fa-envelope prefix"></i>
-              <input id="modalLRInput12" class="form-control form-control-sm validate" type="email" placeholder="Type your e-mail address.">
-              <label data-error="wrong" data-success="right" for="modalLRInput12"></label>
-            </div>
-            <div class="md-form form-sm mb-5">
-              <i class="fas fa-lock prefix"></i>
-              <input id="modalLRInput13" class="form-control form-control-sm validate" type="password" placeholder="Type your password.">
-              <label data-error="wrong" data-success="right" for="modalLRInput13"></label>
-            </div>
-            <div class="md-form form-sm mb-4">
-              <i class="fas fa-lock prefix"></i>
-              <input id="modalLRInput14" class="form-control form-control-sm validate" type="password" placeholder="Repeat your password.">
-              <label data-error="wrong" data-success="right" for="modalLRInput14"></label>
-            </div>
-            <div class="form-group mt-4">
-              <input  id="checkbox624" class="form-check-input" type="checkbox">
-              <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
-                  Terms and Conditions</a></label>
-            </div>
-              <div class="modal-footer">
-                <div class="text-center form-sm mt-2">
-                  <button class="btn btn-default btn-md">Sign up <i class="fa fa-paper-plane prefix"></i></button>
-                  <p class="pt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalLogin">Log In</a></p>
-                </div>
+            <div class="div modal-body">
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-user prefix grey-text"></i>
+                <input id="name" class="form-control form-control-sm validate" type="text" placeholder="Type your name.">
+                <label data-error="wrong" data-success="right" for="form34"></label>
+                <i id="iconValidation" class="fas fa-check-circle"></i>
+                <i id="iconValidation" class="fas fa-exclamation-circle"></i>
+                <small>Error message.</small>
               </div>
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-envelope prefix"></i>
+                <input id="email" class="form-control form-control-sm validate" type="email" placeholder="Type your e-mail address.">
+                <label data-error="wrong" data-success="right" for="modalLRInput12"></label>
+                <i id="iconValidation" class="fas fa-check-circle"></i>
+                <i id="iconValidation" class="fas fa-exclamation-circle"></i>
+                <small>Error message.</small>
+              </div>
+              <div class="md-form form-sm mb-5">
+                <i class="fas fa-lock prefix"></i>
+                <input id="password" class="form-control form-control-sm validate" type="password" placeholder="Type your password.">
+                <label data-error="wrong" data-success="right" for="modalLRInput13"></label>
+                <i id="iconValidation" class="fas fa-check-circle"></i>
+                <i id="iconValidation" class="fas fa-exclamation-circle"></i>
+                <small>Error message.</small>
+              </div>
+              <div class="md-form form-sm mb-4">
+                <i class="fas fa-lock prefix"></i>
+                <input id="repeatPassword" class="form-control form-control-sm validate" type="password" placeholder="Repeat your password.">
+                <label data-error="wrong" data-success="right" for="modalLRInput14"></label>
+                <i id="iconValidation" class="fas fa-check-circle"></i>
+                <i id="iconValidation" class="fas fa-exclamation-circle"></i>
+                <small>Error message.</small>
+              </div>
+              <div class="form-group mt-4">
+                <input  id="checkbox624" class="form-check-input" type="checkbox">
+                <label for="checkbox624" class="white-text form-check-label">Accept the<a href="#" class="green-text font-weight-bold">
+                    Terms and Conditions</a></label>
+              </div>
+                <div class="modal-footer">
+                  <div class="text-center form-sm mt-2">
+                    <button class="btn btn-default btn-md">Sign up <i class="fa fa-paper-plane prefix"></i></button>
+                    <p class="pt-1">Already have an account? <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalLogin">Log In</a></p>
+                  </div>
+                </div>
+            </div>
+  
           </div>
-
         </div>
-      </div>
+      </form>
+    
     </div>
     <!-- Login -->
     <div class="modal fade" id="modalLogin" tabindex="-1">

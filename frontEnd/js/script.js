@@ -14,18 +14,23 @@ const oldPhoto = document.querySelector('.bg-parlex-new');
 
 
 
-
+// Detect if scrollbar is present
+var scrollbar = (some expression) ? true : false;
+if (scrollbar) {
+ // Add padding
+}
+$('body').addClass('modal-open');
 
 
 
 /*over quote
 function noiseOut()
 {
-    document.getElementById('quoteNoise').setAttribute('../../WebLab_1-1/img/Gibran-wall.jpg');
+    document.getElementById('quoteNoise').setAttribute('../..;
 }
 function noiseIn()
 {
-    document.getElementById('quoteNoise').src = "../../WebLab_1-1/img/Gibran-wall-noise.jpg";
+    document.getElementById('quoteNoise').src = "../..;
 }*/
 
             
