@@ -5,7 +5,7 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* creating a style for logo*/
@@ -201,11 +201,6 @@ header
 	z-index: -1;
     
 }
-figure {
-	position: relative;
-	width: 100%;
-	height: 60%;
-}
 .fixed-wrap {
 	clip: rect(0, auto, auto, 0);
 	position: absolute;
@@ -231,12 +226,9 @@ figure {
     font-size: 17px;
     text-align: justify;
 }
-#iconValidation{
-    position: absolute;
-    top: 45px;
-    right: 20px;
 
-}
+/*Register/login validation */
+
 
 /*Footer*/
 footer {
@@ -273,7 +265,7 @@ footer {
     font-weight: bold;
 }
 
-/*modal fix bug*/
+/*modal fix bug
 .modal-open {
     padding-right: 0 !important;
   }
@@ -281,7 +273,7 @@ footer {
   html {
     overflow-y: scroll !important;
   }
-
+*/
   
 
 
