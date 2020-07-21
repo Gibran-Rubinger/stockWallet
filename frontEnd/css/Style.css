@@ -5,7 +5,7 @@ html, body{
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: auto;
+    overflow: -moz-hidden-unscrollable;
 }
 
 /* creating a style for logo*/
@@ -227,6 +227,12 @@ header
     text-align: justify;
 }
 
+.modal-open {
+    padding-right: 0 !important;
+  }
+  html {
+    overflow-y: scroll !important;
+  }
 /*Register/login validation */
 
 
