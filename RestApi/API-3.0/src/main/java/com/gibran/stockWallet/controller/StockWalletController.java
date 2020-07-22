@@ -1,6 +1,4 @@
 package com.gibran.stockWallet.controller;
-
-import java.rmi.server.UID;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +36,7 @@ public class StockWalletController {
 	
 //	search id
 	@PostMapping("/userById/{id}")
-	public User findUserById(@PathVariable UID id) {
+	public User findUserById(@PathVariable int id) {
 		return service.getUserById(id);
 	}
 	
@@ -56,7 +54,7 @@ public class StockWalletController {
 	
 //	delete
 	@DeleteMapping("/delete/{id}")
-	public String deleteUser(@PathVariable UID id) {
+	public String deleteUser(@PathVariable int id) {
 		return service.deleteUser(id);
 	}
 	

@@ -1,6 +1,4 @@
 package com.gibran.stockWallet.service;
-
-import java.rmi.server.UID;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +29,7 @@ public class UserService {
 	}
 	
 //	all
-	public User getUserById(UID id) {
+	public User getUserById(int id) {
 		return repository.findById(id).orElse(null);
 	}
 	
@@ -41,7 +39,7 @@ public class UserService {
 	}
 	
 //	to delete
-	public String deleteUser(UID id) {
+	public String deleteUser(int id) {
 		return "The user"+id+"has been removed";
 	}
 	
