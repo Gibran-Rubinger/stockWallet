@@ -7,10 +7,25 @@ menuToggle.addEventListener('click', () => {
     nav.classList.toggle('active')
     bars.classList.toggle('change')
 });
+/*script to change the home photo*/
+const changePhoto = document.querySelector('.bg-parlex');
+const oldPhoto = document.querySelector('.bg-parlex-new');
 
 
 
 
 
+
+
+
+/*over quote
+function noiseOut()
+{
+    document.getElementById('quoteNoise').setAttribute('../..;
+}
+function noiseIn()
+{
+    document.getElementById('quoteNoise').src = "../..;
+}*/
 
             
